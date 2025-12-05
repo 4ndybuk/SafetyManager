@@ -18,7 +18,7 @@ in a controlled settings such as laboratories or workshops.
 ## Installation
 1. Run in your terminal  
    ```
-   $ git clone https://github.com/4ndybuk/ITk-Metrologist
+   $ git clone https://github.com/4ndybuk/SafetyManager
    ```
 2. Install dependancies with    
    ```
