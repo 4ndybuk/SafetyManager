@@ -50,7 +50,6 @@ class SafetyManager(QMainWindow):
         # Hide non-interactive columns on the next page
         self.table = self.ui.tableWidget
         self.table.setColumnHidden(6, True)
-        self.table.setColumnHidden(7, True)
 
         # Table Page Setup
         self.ui.createButton.clicked.connect(self.create_ticket)
