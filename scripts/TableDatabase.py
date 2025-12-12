@@ -155,7 +155,7 @@ class TableController:
             user_signature = f"\n\n•Ticket signed off as {value} by {user_name} at {date_time.strftime("%d/%m/%Y %H:%M:%S")}•"
             return user_signature
 
-        if button.isChecked():
+        if button.isChecked() and button.text() == "Active":
             value = "Completed"
             user_signature = user_signature(value)
             if user_signature is None:
