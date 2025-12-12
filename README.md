@@ -18,16 +18,16 @@ in controlled settings such as laboratories or workshops.
 ## Installation
 1. Run in your terminal  
    ```
-   $ git clone https://github.com/4ndybuk/SafetyManager
+   git clone https://github.com/4ndybuk/SafetyManager
    ```
-2. Install dependancies with    
+2. Go to the cloned directory and install dependancies with    
    ```
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 4. Create an .env file in your project directory for initialising the database  
    ```
-   $ touch ./.env   (bash)
-   $ type nul > .env    (Windows)
+   touch ./.env   (bash)
+   type nul > .env    (Windows)
    ```
 4. Option A: Database already made  
      - Speak to relevant person to retrieve Supabase URL and KEY
@@ -44,7 +44,7 @@ in controlled settings such as laboratories or workshops.
    ```
 7. Run the program with a supabase authorised user  
    ```
-   $ python TicketManager.py
+   python TicketManager.py
    ```
 
 ## Usage
